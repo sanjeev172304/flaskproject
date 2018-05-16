@@ -6,12 +6,17 @@ box-sizing: border-box;
 	outline: none;
 }
 body {
+
 font-family: Arial;
-background-color: #3498DB;
+background-color: #ffffff;
+background-image: url("images/images.jpg");
+/*background-position: center;*/
+background-repeat: no-repeat;
+background-size: cover;
 padding: 50px;
 }
 .login {
-margin: 20px auto;
+margin-left:100px;
 width: 300px;
 }
 .login-screen {
