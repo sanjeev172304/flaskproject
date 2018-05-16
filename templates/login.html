@@ -1,10 +1,11 @@
 <link rel="stylesheet" href="/static/style.css" type="text/css">
+<link rel="stylesheet" href="/static/images" type="text/css">
 {% block body %}
 {% if session['logged_in'] %}
 <p>You are logged in already!</p>
 {% else %}
 <form action="/login" method="POST">
-  <div clas="login">
+  <div class="login">
     <div class="login-screen">
     <div class="app-title">
       <h1>Login</h1>
@@ -20,6 +21,12 @@
       </div>
     <input type="submit" value="log in" class="btn btn-primary btn-large btn-block">
     <br>
+    <input type="reset" value="Reset" class="btn btn-primary btn-large btn-block">
+    <br>
+    <a href="#">None Registered User</a><br>
+    <pre></pre>
+    <a href="#">Forgot password</a>
+
   </div>
 </div>
 </div>
